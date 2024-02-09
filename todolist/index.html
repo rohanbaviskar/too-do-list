@@ -1,13 +1,31 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vite + React</title>
-  </head>
-  <body>
+    <style>
+        body {
+            background-color: rgb(213, 250, 238);
+            margin: 0; /* Reset default margin */
+            padding: 0; /* Reset default padding */
+        }
+        
+        #logo {
+               width: 7%;
+               height: auto;
+               margin: 2%;
+               position: fixed;
+               top: 2%;
+               left: 2%;
+               z-index: 9999;
+        }
+    </style>
+</head>
+<body>
+    <img id="logo" src="1560.png" alt="Logo">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-  </body>
+</body>
 </html>

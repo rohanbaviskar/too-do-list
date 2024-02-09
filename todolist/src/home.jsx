@@ -29,7 +29,7 @@ function Home() {
     }
     
     return (
-        <div className="home">
+        <div className="Home">
             <h2>Todo list</h2>
             <Create/>
             {
@@ -47,7 +47,7 @@ function Home() {
                         </div>
                         <div>
                             <span>
-                            <BsFillTrashFill className="icon" onClick={() => handleDelete(todo._id)} /></span>
+                            <BsFillTrashFill id="jk" className="icon" onClick={() => handleDelete(todo._id)} /></span>
                         </div>
                     </div>
                 ))
